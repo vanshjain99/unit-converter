@@ -52,6 +52,10 @@ body {
     background: white;
     border: 1px solid white;
     margin-bottom: 30px;
+    transition: transform 0.1s ease;
+}
+#convert-btn:active{
+    transform: scale(0.9);
 }
 #conversion-container{
     display: flex;
