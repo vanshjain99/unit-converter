@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#input-container{
+    background: #6943FF;
+    width: 550px;
+    height: 285px;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+}
+#input-box{
+    border: 2px solid #B295FF;
+    width: 117px;
+    height: 90px;
+    background: #6943FF;
+    color: white;
+    border-radius: 4px;
+    font-size: 50px;
+    font-weight: bold; 
+    text-align: center;
+}
+#convert-btn{
+    display: block;
+    margin: auto auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 4px;
+    background: white;
+    border: 1px solid white;
+}
+#conversion-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #1F2937;
+    margin: 0px;
+    padding: 0px;
+}
+.unit-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    height: 108.573px;
+    background: #273549;
+    margin:  0px;
+    padding: 0px;
+}
+.unit-heading{
+    color: #CCC1FF;
+}
